@@ -90,6 +90,21 @@ window.onload = function () {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
 };
-Resources
 
+//scroll
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if(currentScrollPos > 900)
+    {
+        $(".nav").removeClass("hidden");
+    }
+    else{
+        $(".nav").addClass("hidden");
+    }
+} 
 
+//skills progress bars
+
+var ProgressBar = require('progressbar.js');
+var bar = new ProgressBar.Line('#container', {easing: 'easeInOut'});
+bar.animate(0.4);  // Value from 0.0 to 1.0

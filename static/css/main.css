@@ -4,7 +4,7 @@
     blue = #3b6978;
     light blue = #84a9ac;
 */
-
+ 
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -56,11 +56,11 @@ strong{
 }
 
 .active {
-	color: red;
+	color: #84a9ac;
 }
 
 .nav-bg {
-	background-color: #fcf7f3;
+	background-color: transparent;
 }
 
 .header {
@@ -68,6 +68,7 @@ strong{
 	background: url("../images/bg2.jpg") no-repeat center;
 	background-size: cover;
 	height: 55rem;
+	background-position: center;
 }
 .header-box {
 	display: block;
@@ -181,7 +182,11 @@ h1.big.s1 {
 	color: #3b6978;
 }
 
-.division-icon .fa-laptop {
+.division-icon .fa-laptop-code {
+	color: #3b6978;
+}
+
+.division-icon .fa-graduation-cap {
 	color: #3b6978;
 }
 
@@ -216,8 +221,52 @@ h1.big.s1 {
 }
 
 
+/* timeline */
 
-
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background:  #204051;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background:  white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #3b6978;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.timeline a{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.timeline .float-right{
+	font-size: 15px;
+	color: #84a9ac;
+}
+.timeline p{
+	margin-top: 1rem;
+	font-size: 18px;
+	font-weight: normal;
+}
 /* Text animation */
 
 .ml11 {
