@@ -250,6 +250,11 @@ h1.big.s1 {
     background: transparent;
     height: 3rem;
 }
+
+
+.blue{
+	color: #3b6978;
+}
 /* timeline */
 
 ul.timeline {
@@ -311,6 +316,11 @@ ul.timeline > li:before {
     border: solid 3px #204051;
     color:  #204051;
 
+}
+
+
+.logos{
+	text-align: center;
 }
 /* Text animation */
 
