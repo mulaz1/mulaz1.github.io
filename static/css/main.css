@@ -4,7 +4,11 @@
     blue = #3b6978;
     light blue = #84a9ac;
 */
- 
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -190,6 +194,12 @@ h1.big.s1 {
 	color: #3b6978;
 }
 
+.division-icon .fa-phone {
+	color: #3b6978;
+}
+
+
+
 .about-me{
     font-family: 'Open Sans', sans-serif;
 }
@@ -220,7 +230,26 @@ h1.big.s1 {
     position: relative;
 }
 
+.contact{
+    background-color: #3b6978 ;
+    height: 30rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 5rem;
+}
 
+.contact .social{
+        font-size: 40px;
+        color: #e4e3e3;
+}
+
+.transparent{
+    background: transparent;
+    height: 3rem;
+}
 /* timeline */
 
 ul.timeline {
@@ -266,6 +295,22 @@ ul.timeline > li:before {
 	margin-top: 1rem;
 	font-size: 18px;
 	font-weight: normal;
+}
+
+.send-btn{
+    color: #e4e3e3;
+    background-color: transparent;
+    border: solid 3px #e4e3e3;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.send-btn:hover{
+    background: #e4e3e3;
+    border: solid 3px #204051;
+    color:  #204051;
+
 }
 /* Text animation */
 

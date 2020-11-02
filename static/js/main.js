@@ -91,7 +91,7 @@ window.onload = function () {
     document.body.appendChild(css);
 };
 
-//scroll
+//show mwnu
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if(currentScrollPos > 900)
@@ -103,8 +103,7 @@ window.onscroll = function() {
     }
 } 
 
-//skills progress bars
-
+//skills
 var ProgressBar = require('progressbar.js');
 var bar = new ProgressBar.Line('#container', {easing: 'easeInOut'});
 bar.animate(0.4);  // Value from 0.0 to 1.0
