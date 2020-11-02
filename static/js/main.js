@@ -93,8 +93,11 @@ window.onload = function () {
 
 //show mwnu
 window.onscroll = function() {
+    var width = Math.max(window.screen.width, window.innerWidth);
     var currentScrollPos = window.pageYOffset;
-    if(currentScrollPos > 900)
+    console.log(width);
+
+    if((currentScrollPos > 900) && (width > 450 ))
     {
         $(".nav").removeClass("hidden");
     }
