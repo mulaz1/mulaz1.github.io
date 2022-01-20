@@ -10,6 +10,7 @@
     transform: translate(-50%, -50%);
     text-shadow: 0 0 3px #fff;
     font-size: 25px;
+    color: #ffff;
   }
   .ldBar-label:after {
     content: "%";
@@ -23,4 +24,6 @@
     stroke-width: 3;
     stroke: #3b6978;
     stroke-linecap: round;
+    fill: #3b6978;
   }
+
